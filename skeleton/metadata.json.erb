@@ -1,0 +1,21 @@
+{
+  "name": "<%= metadata.full_module_name %>",
+  "version": "<%= metadata.version %>",
+  "author": "<%= metadata.author %>",
+  "summary": "<%= metadata.summary %>",
+  "license": "<%= metadata.license %>",
+  "source": "<%= metadata.source %>",
+  "project_page": "<%= metadata.project_page %>",
+  "issues_url": "<%= metadata.issues_url %>",
+  "tags": ["windows", "utility", "powershell"],
+  "operatingsystem_support": [
+    {
+    "operatingsystem":"windows",
+    "operatingsystemrelease": ["6.1.7600","6.1.7601", "6.2.9200", "6.3.9200", "6.3.9600"]
+    }
+  ],
+  "dependencies": [
+    { "name": "puppetlabs/stdlib", "version_requirement": ">=3.0.0 <5.0.0" },
+    { "name": "puppetlabs/powershell", "version_requirement": ">= 1.0.1" }
+  ]
+}
