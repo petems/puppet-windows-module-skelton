@@ -1,7 +1,7 @@
 # A Basic Module Skeleton for a Windows-focused Module
 
 [![Build
-Status](https://travis-ci.org/petems/puppet-windows-module-skelton.svg?branch=master)](https://travis-ci.org/petems/puppet-module-skeleton)
+Status](https://travis-ci.org/petems/puppet-windows-module-skelton.svg?branch=master)](https://travis-ci.org/petems/puppet-windows-module-skelton)
 
 ## Installation
 
